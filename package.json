@@ -1,0 +1,20 @@
+{
+  "name": "nhds-js-linting",
+  "version": "1.0.0",
+  "description": "Neighborhoods.com JavaScript Style Guide",
+  "keywords": [
+    "nhds",
+    "js-style",
+    "js-linting"
+  ],
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/55places/Neighborhoods-JS-Linting.git"
+  },
+  "bugs": {
+    "url": "https://github.com/55places/Neighborhoods-JS-Linting/issues"
+  },
+  "main": "index.js",
+  "author": "Jon Rubins <jon.rubins@55places.com>",
+  "license": "MIT"
+}
