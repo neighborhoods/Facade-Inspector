@@ -18,14 +18,6 @@ module.exports = {
     // http://eslint.org/docs/rules/jsx-quotes
     'jsx-quotes': [2, 'prefer-double'],
 
-    // Prevent missing displayName in a React component definition
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/display-name.md
-    'react/display-name': [0, { ignoreTranspilerName: false }],
-
-    // Forbid certain propTypes (any, array, object)
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/forbid-prop-types.md
-    'react/forbid-prop-types': [0, { forbid: ['any', 'array', 'object'] }],
-
     // Enforce boolean attributes notation in JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-boolean-value.md
     'react/jsx-boolean-value': [2, 'never'],
@@ -38,24 +30,9 @@ module.exports = {
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-curly-spacing.md
     'react/jsx-curly-spacing': [2, 'never', { allowMultiline: true }],
 
-    // Enforce event handler naming conventions in JSX
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-handler-names.md
-    'react/jsx-handler-names': [0, {
-      eventHandlerPrefix: 'handle',
-      eventHandlerPropPrefix: 'on',
-    }],
-
     // Validate props indentation in JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-indent-props.md
     'react/jsx-indent-props': [2, 2],
-
-    // Validate JSX has key prop when in array or iterator
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-key.md
-    'react/jsx-key': 0,
-
-    // Limit maximum of props on a single line in JSX
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-max-props-per-line.md
-    'react/jsx-max-props-per-line': [0, { maximum: 1 }],
 
     // Prevent usage of .bind() in JSX props
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-bind.md
@@ -64,14 +41,6 @@ module.exports = {
       allowArrowFunctions: true,
       allowBind: false,
     }],
-
-    // Prevent duplicate props in JSX
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-duplicate-props.md
-    'react/jsx-no-duplicate-props': [0, { ignoreCase: false }],
-
-    // Prevent usage of unwrapped JSX strings
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-literals.md
-    'react/jsx-no-literals': 0,
 
     // Disallow undeclared variables in JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-undef.md
@@ -84,28 +53,6 @@ module.exports = {
       ignore: [],
     }],
 
-    // Enforce propTypes declarations alphabetical sorting
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/sort-prop-types.md
-    'react/sort-prop-types': [0, {
-      ignoreCase: false,
-      callbacksLast: false,
-      requiredFirst: false,
-    }],
-
-    // Deprecated in favor of react/jsx-sort-props
-    'react/jsx-sort-prop-types': 0,
-
-    // Enforce props alphabetical sorting
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-sort-props.md
-
-// @todo bug that needs to be resolved
-    // 'react/jsx-sort-props': [0, {
-    //   ignoreCase: false,
-    //   callbacksLast: false,
-    //   shorthandFirst: false,
-    //   shorthandLast: false,
-    // }],
-
     // Prevent React to be incorrectly marked as unused
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-uses-react.md
     'react/jsx-uses-react': [2],
@@ -113,10 +60,6 @@ module.exports = {
     // Prevent variables used in JSX to be incorrectly marked as unused
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-uses-vars.md
     'react/jsx-uses-vars': 2,
-
-    // Prevent usage of dangerous JSX properties
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-danger.md
-    'react/no-danger': 0,
 
     // Prevent usage of deprecated methods
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-deprecated.md
@@ -130,10 +73,6 @@ module.exports = {
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-did-update-set-state.md
     'react/no-did-update-set-state': [2],
 
-    // Prevent direct mutation of this.state
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-direct-mutation-state.md
-    'react/no-direct-mutation-state': 0,
-
     // Prevent usage of isMounted
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-is-mounted.md
     'react/no-is-mounted': 2,
@@ -141,10 +80,6 @@ module.exports = {
     // Prevent multiple component definition per file
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-multi-comp.md
     'react/no-multi-comp': [2, { ignoreStateless: true }],
-
-    // Prevent usage of setState
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-set-state.md
-    'react/no-set-state': 0,
 
     // Prevent using string references
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-string-refs.md
@@ -208,7 +143,6 @@ module.exports = {
       assignment: true,
       return: true
     }],
-    'react/wrap-multilines': 0, // deprecated version
 
     // Require that the first prop in a JSX element be on a new line when the element is multiline
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-first-prop-new-line.md
@@ -234,15 +168,10 @@ module.exports = {
     // prevent accidental JS comments from being injected into JSX as text
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-comment-textnodes.md
     'react/jsx-no-comment-textnodes': 2,
-    'react/no-comment-textnodes': 0, // deprecated version
 
     // disallow using React.render/ReactDOM.render's return value
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-render-return-value.md
     'react/no-render-return-value': 2,
-
-    // require a shouldComponentUpdate method, or PureRenderMixin
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/require-optimization.md
-    'react/require-optimization': [0, { allowDecorators: [] }],
 
     // warn against using findDOMNode()
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-find-dom-node.md
@@ -257,7 +186,7 @@ module.exports = {
     },
     react: {
       pragma: 'React',
-      version: '0.14'
+      version: '15.3.0'
     },
-  }
+  },
 };

@@ -17,7 +17,7 @@ module.exports = {
     'arrow-body-style': [2, 'as-needed'],
 
     // require parens in arrow function arguments
-    'arrow-parens': 0,
+    'arrow-parens': 2,
 
     // require space before/after arrow function's arrow
     // http://eslint.org/docs/rules/arrow-spacing
@@ -54,10 +54,6 @@ module.exports = {
     // disallow symbol constructor
     // http://eslint.org/docs/rules/no-new-symbol
     'no-new-symbol': 2,
-
-    // disallow specific imports
-    // http://eslint.org/docs/rules/no-restricted-imports
-    'no-restricted-imports': 0,
 
     // disallow to use this/super before super() calling in constructors.
     // http://eslint.org/docs/rules/no-this-before-super
@@ -101,11 +97,6 @@ module.exports = {
       ignoreReadBeforeAssign: true,
     }],
 
-    // suggest using Reflect methods where applicable
-    // http://eslint.org/docs/rules/prefer-reflect
-    // TODO: enable
-    'prefer-reflect': 0,
-
     // use rest parameters instead of arguments
     // http://eslint.org/docs/rules/prefer-rest-params
     'prefer-rest-params': 2,
@@ -125,14 +116,6 @@ module.exports = {
     // enforce spacing between object rest-spread
     // http://eslint.org/docs/rules/rest-spread-spacing
     'rest-spread-spacing': [2, 'never'],
-
-    // import sorting
-    // http://eslint.org/docs/rules/sort-imports
-    'sort-imports': [0, {
-      ignoreCase: false,
-      ignoreMemberSort: false,
-      memberSyntaxSortOrder: ['none', 'all', 'multiple', 'single'],
-    }],
 
     // enforce usage of spacing in template strings
     // http://eslint.org/docs/rules/template-curly-spacing

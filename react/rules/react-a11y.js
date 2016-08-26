@@ -49,18 +49,10 @@ module.exports = {
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/no-access-key.md
     'jsx-a11y/no-access-key': 2,
 
-    // require onBlur instead of onChange
-    // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/no-onchange.md
-    'jsx-a11y/no-onchange': 0,
-
     // Enforce that elements with onClick handlers must be focusable.
     // TODO: evaluate
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/onclick-has-focus.md
     'jsx-a11y/onclick-has-focus': 0,
-
-    // require things with onClick to have an aria role
-    // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/onclick-has-role.md
-    'jsx-a11y/onclick-has-role': 0,
 
     // Enforce that elements with ARIA roles must have all required attributes
     // for that role.

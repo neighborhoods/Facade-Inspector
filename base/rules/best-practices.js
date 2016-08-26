@@ -1,17 +1,11 @@
 module.exports = {
   rules: {
-    // enforces getter/setter pairs in objects
-    'accessor-pairs': 0,
-
     // enforces return statements in callbacks of array's methods
     // http://eslint.org/docs/rules/array-callback-return
     'array-callback-return': 2,
 
     // treat var statements as if they were block scoped
     'block-scoped-var': 2,
-
-    // specify the maximum cyclomatic complexity allowed in a program
-    complexity: [0, 11],
 
     // require return statements to either always or never specify values
     'consistent-return': 2,
@@ -46,10 +40,6 @@ module.exports = {
     // http://eslint.org/docs/rules/no-case-declarations.html
     'no-case-declarations': 2,
 
-    // disallow division operators explicitly at beginning of regular expression
-    // http://eslint.org/docs/rules/no-div-regex
-    'no-div-regex': 0,
-
     // disallow else after a return in an if
     'no-else-return': 2,
 
@@ -66,9 +56,6 @@ module.exports = {
     // disallow empty destructuring patterns
     // http://eslint.org/docs/rules/no-empty-pattern
     'no-empty-pattern': 2,
-
-    // disallow comparisons to null without a type-checking operator
-    'no-eq-null': 0,
 
     // disallow use of eval()
     'no-eval': 2,
@@ -89,24 +76,8 @@ module.exports = {
     // disallow the use of leading or trailing decimal points in numeric literals
     'no-floating-decimal': 2,
 
-    // disallow implicit type conversions
-    // http://eslint.org/docs/rules/no-implicit-coercion
-    'no-implicit-coercion': [0, {
-      boolean: false,
-      number: true,
-      string: true,
-      allow: [],
-    }],
-
-    // disallow var and named functions in global scope
-    // http://eslint.org/docs/rules/no-implicit-globals
-    'no-implicit-globals': 0,
-
     // disallow use of eval()-like methods
     'no-implied-eval': 2,
-
-    // disallow this keywords outside of classes or class-like objects
-    'no-invalid-this': 0,
 
     // disallow usage of __iterator__ property
     'no-iterator': 2,
@@ -119,15 +90,6 @@ module.exports = {
 
     // disallow creation of functions within loops
     'no-loop-func': 2,
-
-    // disallow magic numbers
-    // http://eslint.org/docs/rules/no-magic-numbers
-    'no-magic-numbers': [0, {
-      ignore: [],
-      ignoreArrayIndexes: true,
-      enforceConst: true,
-      detectObjects: false,
-    }],
 
     // disallow use of multiple spaces
     'no-multi-spaces': 2,
@@ -184,10 +146,6 @@ module.exports = {
     // restrict what can be thrown as an exception
     'no-throw-literal': 2,
 
-    // disallow unmodified conditions of loops
-    // http://eslint.org/docs/rules/no-unmodified-loop-condition
-    'no-unmodified-loop-condition': 0,
-
     // disallow usage of expressions in statement position
     'no-unused-expressions': [2, {
       allowShortCircuit: false,
@@ -197,9 +155,6 @@ module.exports = {
     // disallow unused labels
     // http://eslint.org/docs/rules/no-unused-labels
     'no-unused-labels': 2,
-
-    // disallow unnecessary .call() and .apply()
-    'no-useless-call': 0,
 
     // disallow useless string concatenation
     // http://eslint.org/docs/rules/no-useless-concat
@@ -212,9 +167,6 @@ module.exports = {
     // disallow use of void operator
     // http://eslint.org/docs/rules/no-void
     'no-void': 2,
-
-    // disallow usage of configurable warning terms in comments: e.g. todo
-    'no-warning-comments': [0, { terms: ['todo', 'fixme', 'xxx'], location: 'start' }],
 
     // disallow use of the with statement
     'no-with': 2,

@@ -41,14 +41,6 @@ module.exports = {
     // http://eslint.org/docs/rules/no-extra-boolean-cast
     'no-extra-boolean-cast': 2,
 
-    // disallow unnecessary parentheses
-    // http://eslint.org/docs/rules/no-extra-parens
-    'no-extra-parens': [0, 'all', {
-      conditionalAssign: true,
-      nestedBinaryExpressions: false,
-      returnAssign: false,
-    }],
-
     // disallow unnecessary semicolons
     'no-extra-semi': 2,
 
@@ -93,10 +85,6 @@ module.exports = {
 
     // disallow comparisons with the value NaN
     'use-isnan': 2,
-
-    // ensure JSDoc comments are valid
-    // http://eslint.org/docs/rules/valid-jsdoc
-    'valid-jsdoc': 0,
 
     // ensure that the results of typeof are compared against a valid string
     'valid-typeof': 2
