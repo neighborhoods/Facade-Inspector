@@ -17,6 +17,7 @@ module.exports = {
     'arrow-body-style': [2, 'as-needed'],
 
     // require parens in arrow function arguments
+    // http://eslint.org/docs/rules/arrow-parens
     'arrow-parens': 2,
 
     // require space before/after arrow function's arrow
@@ -24,6 +25,7 @@ module.exports = {
     'arrow-spacing': [2, { before: true, after: true }],
 
     // verify super() callings in constructors
+    // http://eslint.org/docs/rules/constructor-super
     'constructor-super': 2,
 
     // enforce the spacing around the * in generator functions
@@ -41,6 +43,7 @@ module.exports = {
     }],
 
     // disallow modifying variables that are declared using const
+    // http://eslint.org/docs/rules/no-const-assign
     'no-const-assign': 2,
 
     // disallow duplicate class members
@@ -76,6 +79,7 @@ module.exports = {
     }],
 
     // require let or const instead of var
+    // http://eslint.org/docs/rules/no-var
     'no-var': 2,
 
     // require method and property shorthand syntax for object literals
@@ -86,12 +90,14 @@ module.exports = {
     }],
 
     // suggest using arrow functions as callbacks
+    // http://eslint.org/docs/rules/prefer-arrow-callback
     'prefer-arrow-callback': [2, {
       allowNamedFunctions: false,
       allowUnboundThis: true,
     }],
 
     // suggest using of const declaration for variables that are never modified after declared
+    // http://eslint.org/docs/rules/prefer-const
     'prefer-const': [2, {
       destructuring: 'any',
       ignoreReadBeforeAssign: true,

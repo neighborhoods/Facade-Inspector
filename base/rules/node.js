@@ -9,6 +9,7 @@ module.exports = {
     'global-require': 2,
 
     // disallow use of new operator with the require function
+    // http://eslint.org/docs/rules/no-new-require
     'no-new-require': 2,
 
     // disallow string concatenation with __dirname and __filename

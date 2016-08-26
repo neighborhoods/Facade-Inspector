@@ -18,9 +18,13 @@ module.exports = {
     // http://eslint.org/docs/rules/jsx-quotes
     'jsx-quotes': [2, 'prefer-double'],
 
+    // Require a display name for components
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/display-name.md
+    'react/display-name': [2, { ignoreTranspilerName: true }],
+
     // Enforce boolean attributes notation in JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-boolean-value.md
-    'react/jsx-boolean-value': [2, 'never'],
+    'react/jsx-boolean-value': [2, 'always'],
 
     // Validate closing bracket location in JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-closing-bracket-location.md
@@ -36,8 +40,7 @@ module.exports = {
 
     // only .jsx files may have JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-filename-extension.md
-    // @todo discuss
-    //'react/jsx-filename-extension': [2, { extensions: ['.jsx'] }],
+    'react/jsx-filename-extension': [2, { extensions: ['.jsx'] }],
 
     // Require that the first prop in a JSX element be on a new line when the element is multiline
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-first-prop-new-line.md
@@ -84,7 +87,7 @@ module.exports = {
 
     // Prevent React to be incorrectly marked as unused
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-uses-react.md
-    'react/jsx-uses-react': [2],
+    'react/jsx-uses-react': 2,
 
     // Prevent variables used in JSX to be incorrectly marked as unused
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-uses-vars.md
@@ -100,15 +103,15 @@ module.exports = {
 
     // Prevent usage of deprecated methods
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-deprecated.md
-    'react/no-deprecated': [2],
+    'react/no-deprecated': 2,
 
     // Prevent usage of setState in componentDidMount
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-did-mount-set-state.md
-    'react/no-did-mount-set-state': [2],
+    'react/no-did-mount-set-state': 2,
 
     // Prevent usage of setState in componentDidUpdate
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-did-update-set-state.md
-    'react/no-did-update-set-state': [2],
+    'react/no-did-update-set-state': 2,
 
     // Prevent usage of isMounted
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-is-mounted.md
@@ -142,11 +145,6 @@ module.exports = {
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/react-in-jsx-scope.md
     'react/react-in-jsx-scope': 2,
 
-    // Restrict file extensions that may be required
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/require-extension.md
-    // @todo discuss
-    //'import/extensions': [2, { "js": "always", "jsx": "always" }],
-
     // Require render() methods to return something
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/require-render-return.md
     'react/require-render-return': 2,
@@ -169,8 +167,6 @@ module.exports = {
       ],
     }],
 
-
-
     // disallow using React.render/ReactDOM.render's return value
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-render-return-value.md
     'react/no-render-return-value': 2,
@@ -183,12 +179,12 @@ module.exports = {
   settings: {
     'import/resolver': {
       node: {
-        extensions: ['.js', '.jsx', '.json']
-      }
+        extensions: ['.js', '.jsx', '.json'],
+      },
     },
     react: {
       pragma: 'React',
-      version: '15.3.0'
+      version: '15.3.0',
     },
   },
 };
