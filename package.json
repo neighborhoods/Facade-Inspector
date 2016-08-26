@@ -1,5 +1,5 @@
 {
-  "name": "nhds-js-linting",
+  "name": "eslint-config-nhds",
   "version": "1.0.0",
   "description": "Neighborhoods.com JavaScript Style Guide",
   "keywords": [
