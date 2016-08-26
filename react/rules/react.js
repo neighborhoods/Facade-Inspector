@@ -30,6 +30,23 @@ module.exports = {
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-curly-spacing.md
     'react/jsx-curly-spacing': [2, 'never', { allowMultiline: true }],
 
+    // Enforce spacing around jsx equals signs
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-equals-spacing.md
+    'react/jsx-equals-spacing': [2, 'never'],
+
+    // only .jsx files may have JSX
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-filename-extension.md
+    // @todo discuss
+    //'react/jsx-filename-extension': [2, { extensions: ['.jsx'] }],
+
+    // Require that the first prop in a JSX element be on a new line when the element is multiline
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-first-prop-new-line.md
+    'react/jsx-first-prop-new-line': [2, 'multiline'],
+
+    // Enforce JSX indentation
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-indent.md
+    'react/jsx-indent': [2, 2],
+
     // Validate props indentation in JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-indent-props.md
     'react/jsx-indent-props': [2, 2],
@@ -42,6 +59,14 @@ module.exports = {
       allowBind: false,
     }],
 
+    // prevent accidental JS comments from being injected into JSX as text
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-comment-textnodes.md
+    'react/jsx-no-comment-textnodes': 2,
+
+    // Disallow target="_blank" on links
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-target-blank.md
+    'react/jsx-no-target-blank': 2,
+
     // Disallow undeclared variables in JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-undef.md
     'react/jsx-no-undef': 2,
@@ -53,6 +78,10 @@ module.exports = {
       ignore: [],
     }],
 
+    // Enforce spaces before the closing bracket of self-closing JSX elements
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-space-before-closing.md
+    'react/jsx-space-before-closing': [2, 'always'],
+
     // Prevent React to be incorrectly marked as unused
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-uses-react.md
     'react/jsx-uses-react': [2],
@@ -60,6 +89,14 @@ module.exports = {
     // Prevent variables used in JSX to be incorrectly marked as unused
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-uses-vars.md
     'react/jsx-uses-vars': 2,
+
+    // Prevent missing parentheses around multilines JSX
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-wrap-multilines.md
+    'react/jsx-wrap-multilines': [2, {
+      declaration: true,
+      assignment: true,
+      return: true
+    }],
 
     // Prevent usage of deprecated methods
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-deprecated.md
@@ -118,10 +155,6 @@ module.exports = {
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/self-closing-comp.md
     'react/self-closing-comp': 2,
 
-    // Enforce spaces before the closing bracket of self-closing JSX elements
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-space-before-closing.md
-    'react/jsx-space-before-closing': [2, 'always'],
-
     // Enforce component methods order
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/sort-comp.md
     'react/sort-comp': [2, {
@@ -136,38 +169,7 @@ module.exports = {
       ],
     }],
 
-    // Prevent missing parentheses around multilines JSX
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-wrap-multilines.md
-    'react/jsx-wrap-multilines': [2, {
-      declaration: true,
-      assignment: true,
-      return: true
-    }],
 
-    // Require that the first prop in a JSX element be on a new line when the element is multiline
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-first-prop-new-line.md
-    'react/jsx-first-prop-new-line': [2, 'multiline'],
-
-    // Enforce spacing around jsx equals signs
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-equals-spacing.md
-    'react/jsx-equals-spacing': [2, 'never'],
-
-    // Enforce JSX indentation
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-indent.md
-    'react/jsx-indent': [2, 2],
-
-    // Disallow target="_blank" on links
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-target-blank.md
-    'react/jsx-no-target-blank': 2,
-
-    // only .jsx files may have JSX
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-filename-extension.md
-    // @todo discuss
-    //'react/jsx-filename-extension': [2, { extensions: ['.jsx'] }],
-
-    // prevent accidental JS comments from being injected into JSX as text
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-comment-textnodes.md
-    'react/jsx-no-comment-textnodes': 2,
 
     // disallow using React.render/ReactDOM.render's return value
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-render-return-value.md

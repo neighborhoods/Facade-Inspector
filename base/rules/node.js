@@ -6,8 +6,7 @@ module.exports = {
   rules: {
     // require all requires be top-level
     // http://eslint.org/docs/rules/global-require
-    // @todo discuss
-    //'global-require': 2,
+    'global-require': 2,
 
     // disallow use of new operator with the require function
     'no-new-require': 2,

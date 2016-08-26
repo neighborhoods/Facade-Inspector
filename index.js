@@ -3,5 +3,5 @@ module.exports = {
     './base',
     './react'
   ].map(require.resolve),
-  rules: {}
+  rules: {},
 };

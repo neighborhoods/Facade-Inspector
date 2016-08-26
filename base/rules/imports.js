@@ -28,17 +28,32 @@ module.exports = {
   },
 
   rules: {
-    // Static analysis:
-
-    // ensure imports point to files/modules that can be resolved
-    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unresolved.md
-    'import/no-unresolved': [2, { commonjs: true }],
-
-    // Helpful warnings:
-
     // disallow invalid exports, e.g. multiple defaults
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/export.md
     'import/export': 2,
+
+    // disallow non-import statements appearing before import statements
+    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/imports-first.md
+    'import/imports-first': [2, 'absolute-first'],
+
+    // Require a newline after the last import/require in a group
+    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/newline-after-import.md
+    'import/newline-after-import': 2,
+
+    // disallow AMD require/define
+    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-amd.md
+    'import/no-amd': 2,
+
+    // disallow duplicate imports
+    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-duplicates.md
+    'import/no-duplicates': 2,
+
+    // Forbid the use of extraneous packages
+    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-extraneous-dependencies.md
+    'import/no-extraneous-dependencies': [2, {
+      devDependencies: false,
+      optionalDependencies: false,
+    }],
 
     // do not allow a default import name to match a named export
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-named-as-default.md
@@ -48,40 +63,16 @@ module.exports = {
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-named-as-default-member.md
     'import/no-named-as-default-member': 2,
 
-    // Forbid the use of extraneous packages
-    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-extraneous-dependencies.md
-    'import/no-extraneous-dependencies': [2, {
-      devDependencies: false,
-      optionalDependencies: false,
-    }],
-
     // Forbid mutable exports
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-mutable-exports.md
     'import/no-mutable-exports': 2,
 
-    // Module systems:
-
-    // disallow AMD require/define
-    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-amd.md
-    'import/no-amd': 2,
-
-    // Style guide:
-
-    // disallow non-import statements appearing before import statements
-    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/imports-first.md
-    'import/imports-first': [2, 'absolute-first'],
-
-    // disallow duplicate imports
-    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-duplicates.md
-    'import/no-duplicates': 2,
-
-    // Require a newline after the last import/require in a group
-    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/newline-after-import.md
-    'import/newline-after-import': 2,
+    // ensure imports point to files/modules that can be resolved
+    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unresolved.md
+    'import/no-unresolved': [2, { commonjs: true }],
 
     // Require modules with a single export to use a default export
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/prefer-default-export.md
-    // @todo discuss
-    //'import/prefer-default-export': 2,
+    'import/prefer-default-export': 2,
   },
 };
