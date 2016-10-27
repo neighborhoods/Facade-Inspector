@@ -153,9 +153,15 @@ module.exports = {
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/sort-comp.md
     'react/sort-comp': [2, {
       order: [
+        'displayName',
+        'propTypes',
+        'contextTypes',
+        'defaultProps',
         'static-methods',
+        'state',
+        'constructor',
         'lifecycle',
-        '/^on.+$/',
+        '/^(on|handle).+$/',
         '/^(get|set)(?!(InitialState$|DefaultProps$|ChildContext$)).+$/',
         'everything-else',
         '/^render.+$/',
