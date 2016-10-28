@@ -221,8 +221,8 @@ module.exports = {
       },
       preferType: {
         'object': 'Object',
-        'number': 'number',
-        'string': 'string',
+        'number': 'Number',
+        'string': 'String',
         'function': 'Function',
         'array': 'Array'
       },
