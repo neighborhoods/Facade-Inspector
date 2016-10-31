@@ -2,34 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c38861db-177f-4417-b863-35adde4adc0d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/Neighborhoods-JS-Linting.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/sass-lint.yaml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.eslintrc" afterPath="$PROJECT_DIR$/js/.eslintrc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/base/index.js" afterPath="$PROJECT_DIR$/js/base/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/base/rules/best-practices.js" afterPath="$PROJECT_DIR$/js/base/rules/best-practices.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/base/rules/errors.js" afterPath="$PROJECT_DIR$/js/base/rules/errors.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/base/rules/es6.js" afterPath="$PROJECT_DIR$/js/base/rules/es6.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/base/rules/imports.js" afterPath="$PROJECT_DIR$/js/base/rules/imports.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/base/rules/node.js" afterPath="$PROJECT_DIR$/js/base/rules/node.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/base/rules/strict.js" afterPath="$PROJECT_DIR$/js/base/rules/strict.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/base/rules/style.js" afterPath="$PROJECT_DIR$/js/base/rules/style.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/base/rules/variables.js" afterPath="$PROJECT_DIR$/js/base/rules/variables.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/index.js" afterPath="$PROJECT_DIR$/js/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/react/README.md" afterPath="$PROJECT_DIR$/js/react/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/react/index.js" afterPath="$PROJECT_DIR$/js/react/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/react/rules/react-a11y.js" afterPath="$PROJECT_DIR$/js/react/rules/react-a11y.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/react/rules/react.js" afterPath="$PROJECT_DIR$/js/react/rules/react.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/sass-lint.yaml" afterPath="$PROJECT_DIR$/scss/sass-lint.yaml" />
     </list>
     <ignored path="Neighborhoods-JS-Linting.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -54,8 +27,8 @@
       <file leaf-file-name="sass-lint.yaml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scss/sass-lint.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9180">
-              <caret line="340" column="20" selection-start-line="340" selection-start-column="20" selection-end-line="340" selection-end-column="20" />
+            <state relative-caret-position="0">
+              <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -233,12 +206,12 @@
       <updated>1477578502703</updated>
       <workItem from="1477578504004" duration="1983000" />
       <workItem from="1477675481611" duration="25000" />
-      <workItem from="1477931288249" duration="538000" />
+      <workItem from="1477931288249" duration="786000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2546000" />
+    <option name="totallyTimeSpent" value="2794000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
@@ -251,7 +224,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -369,8 +342,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/sass-lint.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9180">
-          <caret line="340" column="20" selection-start-line="340" selection-start-column="20" selection-end-line="340" selection-end-column="20" />
+        <state relative-caret-position="0">
+          <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
           <folding />
         </state>
       </provider>
