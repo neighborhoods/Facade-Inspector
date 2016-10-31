@@ -208,6 +208,22 @@ module.exports = {
     // http://eslint.org/docs/rules/vars-on-top
     'vars-on-top': 2,
 
+    'valid-jsdoc': [2, {
+      prefer: {
+        'return': 'returns',
+      },
+      preferType: {
+        'object': 'Object',
+        'number': 'Number',
+        'string': 'String',
+        'function': 'Function',
+        'array': 'Array'
+      },
+      requireReturn: false,
+      requireParamDescription: false,
+      requireReturnDescription: false
+    }],
+
     // require immediate function invocation to be wrapped in parentheses
     // http://eslint.org/docs/rules/wrap-iife.html
     'wrap-iife': [2, 'outside'],

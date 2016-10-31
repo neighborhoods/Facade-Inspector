@@ -9,7 +9,6 @@ module.exports = {
   plugins: [
     'import'
   ],
-
   settings: {
     'import/resolver': {
       node: {
@@ -26,7 +25,6 @@ module.exports = {
       '\\.(coffee|scss|css|less|hbs|svg|json)$',
     ],
   },
-
   rules: {
     // disallow invalid exports, e.g. multiple defaults
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/export.md
@@ -34,7 +32,11 @@ module.exports = {
 
     // disallow file extensions on imports
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/extensions.md
-    'import/extensions': 2,
+    'import/extensions': [2, {
+      "js": "always",
+      "jsx": "always",
+      "json": "never"
+    }],
 
     // disallow non-import statements appearing before import statements
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/imports-first.md

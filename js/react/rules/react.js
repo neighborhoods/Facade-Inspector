@@ -38,10 +38,6 @@ module.exports = {
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-equals-spacing.md
     'react/jsx-equals-spacing': [2, 'never'],
 
-    // only .jsx files may have JSX
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-filename-extension.md
-    'react/jsx-filename-extension': [2, { extensions: ['.jsx'] }],
-
     // Require that the first prop in a JSX element be on a new line when the element is multiline
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-first-prop-new-line.md
     'react/jsx-first-prop-new-line': [2, 'multiline'],
@@ -157,9 +153,15 @@ module.exports = {
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/sort-comp.md
     'react/sort-comp': [2, {
       order: [
+        'displayName',
+        'propTypes',
+        'contextTypes',
+        'defaultProps',
         'static-methods',
+        'state',
+        'constructor',
         'lifecycle',
-        '/^on.+$/',
+        '/^(on|handle).+$/',
         '/^(get|set)(?!(InitialState$|DefaultProps$|ChildContext$)).+$/',
         'everything-else',
         '/^render.+$/',
