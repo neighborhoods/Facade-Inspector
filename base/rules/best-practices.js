@@ -180,13 +180,6 @@ module.exports = {
     // http://eslint.org/docs/rules/no-throw-literal
     'no-throw-literal': 2,
 
-    // disallow usage of expressions in statement position
-    // http://eslint.org/docs/rules/no-unused-expressions
-    'no-unused-expressions': [2, {
-      allowShortCircuit: false,
-      allowTernary: false,
-    }],
-
     // disallow unused labels
     // http://eslint.org/docs/rules/no-unused-labels
     'no-unused-labels': 2,
