@@ -15,7 +15,7 @@
     "url": "https://github.com/55places/Neighborhoods-JS-Linting/issues"
   },
   "main": "js/index.js",
-  "author": "55places.com Team",
+  "author": "Neighborhoods.com Team",
   "license": "MIT",
   "dependencies": {
     "eslint-plugin-import": "2.0.0",
