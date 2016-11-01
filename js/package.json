@@ -1,5 +1,5 @@
 {
-  "name": "lint-config-nhds",
+  "name": "eslint-config-nhds",
   "version": "1.0.0",
   "description": "Neighborhoods.com Facade Style Guide",
   "keywords": [
@@ -14,7 +14,7 @@
   "bugs": {
     "url": "https://github.com/55places/Neighborhoods-JS-Linting/issues"
   },
-  "main": "js/index.js",
+  "main": "index.js",
   "author": "Neighborhoods.com Team",
   "license": "MIT",
   "dependencies": {
