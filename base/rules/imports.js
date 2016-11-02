@@ -80,7 +80,8 @@ module.exports = {
     // ensures we follow a defined sort order
     // https://github.com/jfmengels/eslint-plugin-import-order/blob/master/docs/rules/import-order.md
     "import-order/import-order": [2, {
-      "order": ["builtin", "external", "parent", "sibling", "index"]
+      // include all ? : "builtin", "external", "parent", "sibling", "index" 
+      "order": ["builtin", "external"]
     }],
   },
 };
