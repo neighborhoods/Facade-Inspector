@@ -76,5 +76,11 @@ module.exports = {
     // ensure imports point to files/modules that can be resolved
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unresolved.md
     'import/no-unresolved': [2, { commonjs: true }],
+
+    // ensures we follow a defined sort order
+    // https://github.com/jfmengels/eslint-plugin-import-order/blob/master/docs/rules/import-order.md
+    "import-order/import-order": [2, {
+      "order": ["builtin", "external", "parent", "sibling", "index"]
+    }],
   },
 };
