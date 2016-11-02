@@ -1,0 +1,23 @@
+{
+  "name": "sass-lint-nhds",
+  "version": "1.0.0",
+  "description": "Sass linter",
+  "main": "sass-lint.yaml",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/55places/Neighborhoods-JS-Linting.git"
+  },
+  "keywords": [
+    "sass",
+    "lint"
+  ],
+  "author": "Neighborhoods.com Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/55places/Neighborhoods-JS-Linting/issues"
+  },
+  "homepage": "https://github.com/55places/Neighborhoods-JS-Linting#readme"
+}
