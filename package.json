@@ -1,25 +1,26 @@
 {
-  "name": "eslint-config-nhds",
+  "name": "lint-config-nhds",
   "version": "1.0.0",
-  "description": "Neighborhoods.com JavaScript Style Guide",
+  "description": "Neighborhoods.com Facade Style Guide",
   "keywords": [
     "nhds",
     "js-style",
     "js-linting"
   ],
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/55places/Neighborhoods-JS-Linting.git"
+    "type": "git",
+    "url": "https://github.com/55places/Neighborhoods-JS-Linting.git"
   },
   "bugs": {
     "url": "https://github.com/55places/Neighborhoods-JS-Linting/issues"
   },
-  "main": "index.js",
-  "author": "Jon Rubins <jon.rubins@55places.com>",
+  "main": "js/index.js",
+  "author": "Neighborhoods.com Team",
   "license": "MIT",
   "dependencies": {
     "eslint-plugin-import": "2.0.0",
     "eslint-plugin-jsx-a11y": "2.2.2",
-    "eslint-plugin-react": "6.3.0"
+    "eslint-plugin-react": "6.3.0",
+    "sass-lint": "1.9.1"
   }
 }
