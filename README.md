@@ -1,7 +1,11 @@
 # Neighborhoods.com Facade Style Guide
 
-## Styling
-Only supports `scss`, utilizes [sass-lint](https://github.com/sasstools/sass-lint)
+## Scss
+Uses [sass-lint](https://github.com/sasstools/sass-lint) to lint scss files.
+
+**package-name:** sass-lint-nhds
 
 ## Javascript
 *Based on [AirBnb's JavaScript Style Guide](https://github.com/airbnb/javascript)*
+
+**package-name:** eslint-config-nhds
