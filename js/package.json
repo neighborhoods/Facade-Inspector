@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-nhds",
   "version": "1.0.0",
-  "description": "Neighborhoods.com Facade Style Guide",
+  "description": "Neighborhoods.com Javascript Style Guide",
   "keywords": [
     "nhds",
     "js-style",
@@ -20,7 +20,6 @@
   "peerDependencies": {
     "eslint-plugin-import": "2.0.0",
     "eslint-plugin-jsx-a11y": "2.2.2",
-    "eslint-plugin-react": "6.3.0",
-    "sass-lint": "1.9.1"
+    "eslint-plugin-react": "6.3.0"
   }
 }

@@ -1,7 +1,7 @@
 {
   "name": "sass-lint-nhds",
   "version": "1.0.0",
-  "description": "Sass linter",
+  "description": "Neighborhoods.com Sass (SCSS) Style Guide",
   "main": "sass-lint.yaml",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/55places/Neighborhoods-JS-Linting/issues"
   },
-  "homepage": "https://github.com/55places/Neighborhoods-JS-Linting#readme"
+  "homepage": "https://github.com/55places/Neighborhoods-JS-Linting#readme",
+  "peerDependencies": {
+    "sass-lint": "1.9.1"
+  }
 }
