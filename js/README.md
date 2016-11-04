@@ -2,6 +2,6 @@
 
 ## Usage
 
-`npm i --save-dev eslint-configs-neighborhoods`
+`npm i --save-dev eslint-config-neighborhoods`
 
-`yarn add --dev eslint-configs-neighborhoods`
+`yarn add --dev eslint-config-neighborhoods`
