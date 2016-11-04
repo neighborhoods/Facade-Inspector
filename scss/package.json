@@ -1,5 +1,5 @@
 {
-  "name": "sass-lint-nhds",
+  "name": "sass-lint-neighborhoods",
   "version": "1.0.0",
   "description": "Neighborhoods.com Sass (SCSS) Style Guide",
   "main": "sass-lint.yaml",
