@@ -33,9 +33,9 @@ module.exports = {
     // disallow file extensions on imports
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/extensions.md
     'import/extensions': [2, {
-      "js": "always",
-      "jsx": "always",
-      "json": "never"
+      "js": "never",
+      "jsx": "never",
+      "json": "allow"
     }],
 
     // disallow non-import statements appearing before import statements
@@ -80,7 +80,7 @@ module.exports = {
     // ensures we follow a defined sort order
     // https://github.com/jfmengels/eslint-plugin-import-order/blob/master/docs/rules/import-order.md
     "import-order/import-order": [2, {
-      // include all ? : "builtin", "external", "parent", "sibling", "index" 
+      // include all ? : "builtin", "external", "parent", "sibling", "index"
       "order": ["builtin", "external"]
     }],
   },
