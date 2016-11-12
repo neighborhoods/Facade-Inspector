@@ -16,7 +16,7 @@ module.exports = {
       }
     },
     'import/extensions': [
-      'node_modules',
+      'node_modules'
     ],
     'import/core-modules': [
     ],
@@ -33,9 +33,9 @@ module.exports = {
     // disallow file extensions on imports
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/extensions.md
     'import/extensions': [2, {
-      "js": "never",
-      "jsx": "never",
-      "json": "allow"
+      'js': 'never',
+      'jsx': 'never',
+      'json': 'always'
     }],
 
     // disallow non-import statements appearing before import statements
