@@ -18,7 +18,7 @@
   "author": "Neighborhoods.com Team",
   "license": "MIT",
   "peerDependencies": {
-    "eslint-plugin-import": "^2.1.0",
+    "eslint-plugin-import-order": "2.1.4",
     "eslint-plugin-jsx-a11y": "2.2.2",
     "eslint-plugin-react": "6.3.0"
   }
