@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/55places/Neighborhoods-JS-Linting#readme",
   "peerDependencies": {
-    "sass-lint": "1.9.1"
+    "sass-lint": "1.10.2"
   }
 }
