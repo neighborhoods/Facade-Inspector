@@ -57,9 +57,12 @@ module.exports = {
     // Forbid the use of extraneous packages
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-extraneous-dependencies.md
     'import/no-extraneous-dependencies': [2, {
-      devDependencies: false,
-      optionalDependencies: false,
+      devDependencies: ["**/*.test.js", "**/*.spec.js"], // allows tests to have devDeps
+      optionalDependencies: false
     }],
+
+
+
 
     // do not allow a default import name to match a named export
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-named-as-default.md
