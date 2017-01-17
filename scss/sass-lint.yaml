@@ -225,11 +225,11 @@ rules:
       style: lowercase
 
   # Indentation
-  # indent all codes by a tab (2 spaces)
+  # indent all codes by 2 spaces
   indentation:
     - 2
     -
-      size: tab # defaults to `2`
+      size: 2
 
   # Leading Zero
   # values must include a 0
