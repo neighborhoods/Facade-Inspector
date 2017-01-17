@@ -3,9 +3,9 @@
 ## Scss
 Uses [sass-lint](https://github.com/sasstools/sass-lint) to lint scss files.
 
-**package-name:** sass-lint-nhds
+**package-name:** sass-lint-neighborhoods
 
 ## Javascript
 *Based on [AirBnb's JavaScript Style Guide](https://github.com/airbnb/javascript)*
 
-**package-name:** eslint-config-nhds
+**package-name:** eslint-config-neighborhoods
