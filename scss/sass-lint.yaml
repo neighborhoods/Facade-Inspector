@@ -350,5 +350,5 @@ rules:
   mixin-name-format:
   - 2
   -
+    convention: camelcase
     allow-leading-underscore: false
-    convention: camelCase
