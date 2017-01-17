@@ -1,6 +1,6 @@
 {
   "name": "sass-lint-neighborhoods",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "description": "Neighborhoods.com Sass (SCSS) Style Guide",
   "main": "sass-lint.yaml",
   "scripts": {
