@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-neighborhoods",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Neighborhoods.com Javascript Style Guide",
   "keywords": [
     "nhds",
@@ -17,7 +17,7 @@
   "main": "index.js",
   "author": "Neighborhoods.com Team",
   "license": "MIT",
-  "peerDependencies": {
+  "dependencies": {
     "eslint-plugin-import": "2.2.0",
     "eslint-plugin-import-order": "2.1.4",
     "eslint-plugin-jsx-a11y": "3.0.2",
