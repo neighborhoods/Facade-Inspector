@@ -11,6 +11,12 @@ Uses [sass-lint](https://github.com/sasstools/sass-lint) to lint scss files.
 **package-name:** eslint-config-neighborhoods
 
 ## Releasing
-Version Scss and Javascript packages separately.
+Version Scss and Javascript packages separately via the package.json.
 
-Follow [semver](http://semver.org/) but base off of both packages.
+For Github based releases follow [semver](http://semver.org/) but base off of both packages.
+
+Example:
+
+eslint-config-neighborhoods 1.2.2 => 2.0.0
+
+release 1.6.2 => 2.0.0
