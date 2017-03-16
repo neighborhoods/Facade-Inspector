@@ -7,6 +7,15 @@ module.exports = {
     jsx: true
   },
   rules: {
+    // Don't allow distracting UI elements
+    // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/no-distracting-elements.md
+    'jsx-a11y/no-distracting-elements': [2, {
+      'elements': [
+        'marquee',
+        'blink'
+      ],
+    }],
+
     // Enforce all aria-* props are valid.
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/aria-props.md
     'jsx-a11y/aria-props': 2,
@@ -53,6 +62,7 @@ module.exports = {
     'jsx-a11y/label-has-for': [2, {
       components: ['Label']
     }],
+
 
     // require HTML element's lang prop to be valid
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/lang.md
