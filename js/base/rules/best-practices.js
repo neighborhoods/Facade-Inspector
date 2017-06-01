@@ -210,7 +210,7 @@ module.exports = {
 
     'valid-jsdoc': [2, {
       prefer: {
-        'return': 'returns',
+        'return': 'return',
       },
       preferType: {
         'object': 'Object',
