@@ -24,7 +24,7 @@ module.exports = {
 
     // Enforce boolean attributes notation in JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-boolean-value.md
-    'react/jsx-boolean-value': [2, 'never'],
+    'react/jsx-boolean-value': [1, 'never'],
 
     // Validate closing bracket location in JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-closing-bracket-location.md
