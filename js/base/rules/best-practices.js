@@ -208,17 +208,9 @@ module.exports = {
     // http://eslint.org/docs/rules/vars-on-top
     'vars-on-top': 2,
 
+    // require valid jsdoc for documentation
+    // http://eslint.org/docs/rules/valid-jsdoc
     'valid-jsdoc': [2, {
-      prefer: {
-        'return': 'return',
-      },
-      preferType: {
-        'object': 'Object',
-        'number': 'Number',
-        'string': 'String',
-        'function': 'Function',
-        'array': 'Array'
-      },
       requireReturn: false,
       requireParamDescription: false,
       requireReturnDescription: false
