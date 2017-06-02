@@ -1,4 +1,4 @@
-# Facade-Inspection
+# Facade-Inspector
 Neighborhoods.com Facade Team style guide & linting rules.
 
 ## Scss
