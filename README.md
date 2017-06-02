@@ -1,4 +1,5 @@
 # Facade-Inspection
+Neighborhoods.com Facade Team style guide & linting rules.
 
 ## Scss
 Uses [sass-lint](https://github.com/sasstools/sass-lint) to lint scss files.
