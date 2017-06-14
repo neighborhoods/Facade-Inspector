@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-neighborhoods",
   "version": "1.2.5",
-  "description": "Neighborhoods.com Javascript Style Guide",
+  "description": "Neighborhoods.com Javascript Style Guide & Linting Rules",
   "keywords": [
     "nhds",
     "js-style",
@@ -9,10 +9,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/55places/Neighborhoods-JS-Linting.git"
+    "url": "https://github.com/neighborhoods/Facade-Inspector.git"
   },
   "bugs": {
-    "url": "https://github.com/55places/Neighborhoods-JS-Linting/issues"
+    "url": "https://github.com/neighborhoods/Facade-Inspector/issues"
   },
   "main": "index.js",
   "author": "Neighborhoods.com Team",
