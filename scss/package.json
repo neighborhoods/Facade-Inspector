@@ -8,7 +8,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/55places/Neighborhoods-JS-Linting.git"
+    "url": "https://github.com/neighborhoods/Facade-Inspector.git"
+  },
+  "bugs": {
+    "url": "https://github.com/neighborhoods/Facade-Inspector/issues"
   },
   "keywords": [
     "sass",
@@ -16,10 +19,7 @@
   ],
   "author": "Neighborhoods.com Team",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/55places/Neighborhoods-JS-Linting/issues"
-  },
-  "homepage": "https://github.com/55places/Neighborhoods-JS-Linting#readme",
+  "homepage": "https://github.com/neighborhoods/Facade-Inspector#readme",
   "peerDependencies": {
     "sass-lint": "1.10.2"
   }
