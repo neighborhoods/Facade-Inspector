@@ -14,6 +14,7 @@
   "bugs": {
     "url": "https://github.com/neighborhoods/Facade-Inspector/issues"
   },
+  "homepage": "https://github.com/neighborhoods/Facade-Inspector#readme",
   "main": "index.js",
   "author": "Neighborhoods.com Team",
   "license": "MIT",
