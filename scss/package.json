@@ -1,7 +1,7 @@
 {
   "name": "sass-lint-neighborhoods",
   "version": "1.1.2",
-  "description": "Neighborhoods.com Sass (SCSS) Style Guide",
+  "description": "Neighborhoods.com Sass (SCSS) Style Guide & Linting Rules",
   "main": "sass-lint.yaml",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
