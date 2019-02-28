@@ -4,7 +4,4 @@ module.exports = {
     './react'
   ].map(require.resolve),
   rules: {},
-  plugins: [
-    "import-order"
-  ],
 };
