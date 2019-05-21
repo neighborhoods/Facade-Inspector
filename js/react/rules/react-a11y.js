@@ -16,6 +16,10 @@ module.exports = {
       ],
     }],
 
+    // Require <img> to have a non-empty `alt` prop, or role="presentation"
+    // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/alt-text.md
+    'jsx-a11y/alt-text': 2,
+
     // Enforce all aria-* props are valid.
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/aria-props.md
     'jsx-a11y/aria-props': 2,
@@ -40,8 +44,8 @@ module.exports = {
     }],
 
     // disallow href "#"
-    // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/href-no-hash.md
-    'jsx-a11y/href-no-hash': [2, {
+    // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md
+    'jsx-a11y/anchor-is-valid': [2, {
       components: ['Link', 'Anchor', 'a']
     }],
 
@@ -49,18 +53,15 @@ module.exports = {
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/html-has-lang.md
     'jsx-a11y/html-has-lang': 2,
 
-    // Require <img> to have a non-empty `alt` prop, or role="presentation"
-    // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/img-has-alt.md
-    'jsx-a11y/img-has-alt': 2,
-
     // Prevent img alt text from containing redundant words like "image", "picture", or "photo"
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/img-redundant-alt.md
     'jsx-a11y/img-redundant-alt': 2,
 
     // require that JSX labels use "htmlFor"
-    // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/label-has-for.md
-    'jsx-a11y/label-has-for': [2, {
-      components: ['Label']
+    // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/label-has-associated-control.md
+    'jsx-a11y/label-has-associated-control': [2, {
+      labelComponents: ['Label'],
+      assert: 'either',
     }],
 
 
@@ -76,10 +77,6 @@ module.exports = {
     // Prevent use of `accessKey`
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/no-access-key.md
     'jsx-a11y/no-access-key': 2,
-
-    // prevent marquee elements
-    // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/no-marquee.md
-    'jsx-a11y/no-marquee': 2,
 
     // Enforce that elements with onClick handlers must be focusable.
     // TODO: evaluate
