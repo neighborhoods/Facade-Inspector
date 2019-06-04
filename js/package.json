@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-neighborhoods",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Neighborhoods.com Javascript Style Guide & Linting Rules",
   "keywords": [
     "nhds",
