@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-neighborhoods",
-  "version": "2.0.2",
+  "version": "3.0.0",
   "description": "Neighborhoods.com Javascript Style Guide & Linting Rules",
   "keywords": [
     "nhds",
@@ -18,9 +18,13 @@
   "main": "index.js",
   "author": "Neighborhoods.com Team",
   "license": "MIT",
+  "peerDependencies": {
+    "eslint": "^6.0.0"
+  },
   "dependencies": {
-    "eslint-plugin-import": "2.17.2",
-    "eslint-plugin-jsx-a11y": "6.2.1",
-    "eslint-plugin-react": "7.13.0"
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-jsx-a11y": "^6.2.0",
+    "eslint-plugin-react": "^7.17.0",
+    "eslint-plugin-react-hooks": "^2.3.0"
   }
 }

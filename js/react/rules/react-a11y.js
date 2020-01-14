@@ -3,8 +3,10 @@ module.exports = {
     'jsx-a11y',
     'react'
   ],
-  ecmaFeatures: {
-    jsx: true
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true,
+    },
   },
   rules: {
     // Don't allow distracting UI elements
